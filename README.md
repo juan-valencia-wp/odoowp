@@ -1,2 +1,2 @@
 # odoowp
-Pruebas para un modulo
+Pruebas para un modulo de odoo
