@@ -9,12 +9,11 @@ Solo es el primer módulo para probar las cosas que puedo hacer en localhost
 """,
     'autor':'Nacho',
     'category': 'Prueba',
-    'website': '',
     'depends' : ['purchase'],
 
-    'data': ['views/purchase_order_form.xml',],
+    'data': ['views/purchase_order_form.xml'],
     'installable': True,
     'application': True,
     'auto_install': False,
-    'post_init_hook': '_account_post_init',
+    #'post_init_hook': '_account_post_init',
 }
